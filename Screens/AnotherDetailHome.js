@@ -8,7 +8,7 @@ export default function AnotherDetailHome() {
     <View style={{backgroundColor:"purple", flex:1, justifyContent:'center', alignItems:'center'}}>
       <Text>AnotherDetailHome</Text>
       <Button 
-        title='Volver a detalles' 
+        title='Volver a Detalles' 
         onPress={() => Navigation.goBack()}
       />
     </View>

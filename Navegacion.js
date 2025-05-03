@@ -24,7 +24,7 @@ function DrawerNavigate() {
     <Drawer.Navigator initialRouteName="User">
       <Drawer.Screen name="User" component={Users} />
       <Drawer.Screen name="DetailHome" component={DetailHome} />
-      <Drawer.Screen name="OtroDetalle" component={AnotherDetailHome} />
+      <Drawer.Screen name="AnotherDetailsHome" component={AnotherDetailHome} />
     </Drawer.Navigator>
   );
 }
